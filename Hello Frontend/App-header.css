@@ -1,0 +1,25 @@
+.App-header {    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1B98E0;
+    padding: 10pt
+}
+
+.App-header > div {
+
+    padding: 5pt;
+    text-align: center;
+    font-size: 30pt;
+    color: #E8F1F2;
+}
+
+.App-header-title {
+    transition-timing-function: ease;
+    transition: box-shadow 0.2s;
+}
+
+.App-header-title:hover {        
+    box-shadow: 1pt 1pt 3pt #13293D;
+}

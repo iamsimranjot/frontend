@@ -1,0 +1,7 @@
+.App-container {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;  
+    flex: 1;      
+}

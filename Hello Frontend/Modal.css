@@ -1,0 +1,30 @@
+.Modal {
+
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;    
+    left: 0;
+    top: 0;
+
+    align-items:center;
+    justify-content: center;
+}
+
+.Modal-overlay {
+
+    position: fixed;
+    width: 100vw;
+    height: 100vh;    
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: 0.5;
+}
+
+.Modal-overlay-content {
+    
+    z-index: 2;
+    display: flex;     
+    background: #FFF;
+}

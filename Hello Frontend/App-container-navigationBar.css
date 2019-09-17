@@ -1,0 +1,17 @@
+.App-container-navigationBar {
+    
+    display: flex;    
+    flex-direction: column;
+    background-color: #13293D;
+    margin-right: 10pt;    
+    min-width: 75pt;   
+    padding-top: 10pt;    
+}
+
+.App-container-navigationBar > div {
+
+    padding: 5pt;
+    text-align: center;
+    font-size: 15pt;
+    color: #E8F1F2;
+}
